@@ -1,6 +1,8 @@
 # SecuringInsecureCode
 
-This documentation outlines the identification and resolution of security vulnerabilities within the "Insecure Messaging App," developed using Django. The assessment aims to demonstrate a grasp of common web app security concerns and the application of secure coding practices.
+This documentation outlines the identification and resolution of security vulnerabilities within the "Insecure Messaging App," developed using Django. 
+
+The assessment aims to demonstrate a grasp of common web app security concerns and the application of secure coding practices.
 
 # Vulnerabilities Identified
 # 1. Cross-Site Scripting (XSS)
