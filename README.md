@@ -1,20 +1,19 @@
 # SecuringInsecureCode
-highlights the discovery and resolution of security vulnerabilities within the "Insecure Messaging App."
 
 This documentation outlines the identification and resolution of security vulnerabilities within the "Insecure Messaging App," developed using Django. The assessment aims to demonstrate a grasp of common web app security concerns and the application of secure coding practices.
 
-Vulnerabilities Identified
-1. Cross-Site Scripting (XSS)
+# Vulnerabilities Identified
+# 1. Cross-Site Scripting (XSS)
 
 Issue: The original app rendered messages without properly escaping user-generated content in the list_messages.html template, creating a Cross-Site Scripting vulnerability. This allowed potential execution of harmful scripts when viewing messages.
 
-Code Sample:
+# Code Sample:
 
 <ul>
     <li>{{ message.sender }}: {{ message.content }}</li>
 </ul>
 
-2. Insecure Authentication
+# 2. Insecure Authentication
 
 Issue: The "Compose Message" feature lacked proper authentication and authorization checks. This made it accessible to anyone, compromising app security.
 
