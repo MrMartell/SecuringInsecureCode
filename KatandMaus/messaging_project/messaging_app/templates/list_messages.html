@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Messages</title>
+</head>
+<body>
+    <h1>Messages</h1>
+    <ul>
+        {% for message in messages %}
+            <li>{{ message.sender }}: {{ message.content }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+<!--
+<ul>
+    {% for message in messages %}
+        <li>{{ message.sender }}: {{ message.content|safe }}</li>
+    {% endfor %}
+</ul>
+
+-->

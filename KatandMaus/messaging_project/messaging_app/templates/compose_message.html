@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compose Message</title>
+</head>
+<body>
+    <h1>Compose Message</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="sender">Sender:</label>
+        <input type="text" name="sender"><br>
+        <label for="content">Message:</label>
+        <textarea name="content"></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
