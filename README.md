@@ -15,6 +15,8 @@ Code Sample:
     <li>{{ message.sender }}: {{ message.content }}</li>
 </ul>
 
+
+
 2. Insecure Authentication
 
 Issue: The "Compose Message" feature lacked proper authentication and authorization checks. This made it accessible to anyone, compromising app security.
@@ -41,6 +43,8 @@ In list_messages.html, by using the safe filter, user-generated content is desig
         <li>{{ message.sender }}: {{ message.content|safe }}</li>
     {% endfor %}
 </ul>
+
+
 
 
 2. Insecure Authentication Fix
