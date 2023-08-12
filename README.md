@@ -7,7 +7,7 @@ This documentation outlines the identification and resolution of security vulner
 
 Issue: The original app rendered messages without properly escaping user-generated content in the list_messages.html template, creating a Cross-Site Scripting vulnerability. This allowed potential execution of harmful scripts when viewing messages.
 
-# Code Sample:
+ Code Sample:
 
 <ul>
     <li>{{ message.sender }}: {{ message.content }}</li>
