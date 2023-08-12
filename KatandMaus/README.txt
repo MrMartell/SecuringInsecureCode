@@ -58,9 +58,16 @@ def compose_message(request):
         Message.objects.create(sender=sender, content=content)
     return render(request, 'messaging_app/compose_message.html')
 
+//
+
+SDLC Component - Implementation and Testing: This approach aligns with the SDLC principle of secure coding, where authentication checks are implemented and tested thoroughly before deployment.
+
+//
+
 Conclusion
-This assessment showcases the detection and remediation of intentional vulnerabilities in the "Insecure Messaging App." Vulnerabilities like Cross-Site Scripting and Insecure Authentication were identified and rectified by implementing secure coding practices. These efforts bolstered app security, emphasizing the significance of secure coding principles in building resilient web applications.
+This assessment showcases the detection and remediation of intentional vulnerabilities in the "Insecure Messaging App." Vulnerabilities like Cross-Site Scripting and Insecure Authentication were identified and rectified by implementing secure coding practices, drawing from elements of the Secure Development Lifecycle (SDLC). These efforts bolstered app security, emphasizing the significance of secure coding principles in building resilient web applications.
+
+//
 
 Summary
-
-This document highlights the discovery and resolution of security vulnerabilities within the "Insecure Messaging App." Vulnerabilities such as Cross-Site Scripting (XSS) and Insecure Authentication were identified and effectively addressed using secure coding practices. This project underscores the importance of secure coding techniques in ensuring the robustness and safety of web applications.
+This document highlights the discovery and resolution of security vulnerabilities within the "Insecure Messaging App." Vulnerabilities such as Cross-Site Scripting (XSS) and Insecure Authentication were identified and effectively addressed using secure coding practices, incorporating key principles from the Secure Development Lifecycle (SDLC). This project underscores the importance of secure coding techniques and comprehensive development methodologies in ensuring the robustness and safety of web applications.
